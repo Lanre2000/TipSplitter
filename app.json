@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "TipSplitter",
+    "slug": "tipsplitter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tipsplitter",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.emmanuelolukoga.tipsplitter",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.emmanuelolukoga.tipsplitter",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F8F6",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F7F8F6",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "100efc4f-c2ff-46d2-a542-5c272fca6a97"
+      }
+    },
+    "owner": "olas001"
+  }
+}
